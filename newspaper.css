@@ -1,0 +1,159 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    max-width:1100px;
+    margin:0px auto;
+}
+.container{
+    
+    margin-top:20px;
+}
+
+.top > div{
+
+ height:3vh;
+ font-size:8px;
+ font-weight:500;
+}
+.right_text{
+    text-align:right;
+}
+.para{
+    border:2px solid grey;
+    border-left:none;
+    border-right:none;
+    font-size:10px;
+    font-weight:500;
+}
+.para p{
+    margin-bottom:0px;
+}
+.heading{
+   
+    
+    margin-top:5px;
+    text-align: center;
+}
+.heading p{
+  
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:0px;
+}
+
+
+article > h2{
+ font-size:20px;
+ font-weight:600;
+}
+article >p{
+    font-size:12px;
+    color:black;
+    font-weight:400;
+}
+.news_image1{
+    width:100%;
+    object-fit: cover;
+}
+.news2
+{
+    border-bottom:2px solid grey;
+    padding-top:40px;
+}
+
+article >h5{
+    font-size:15px;
+    font-weight: 600;
+    margin-top:10px;
+}
+.patch{
+    background-color:crimson;
+    color:white;
+    font-size:12px;
+    font-weight:500;
+    width:20%;
+    text-align:center;
+    border-radius:2px;
+}
+.patch p{
+    padding:2px;
+}
+.highlighted_text{
+    border-top:2px solid grey;  
+    text-align: center;   
+}
+.highlighted_text > p{
+    color:crimson;
+    font-size:15px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+
+@media(min-width:480px) {
+    .heading p{
+        font-size:35px;
+        
+    }
+}
+@media(min-width:568px) {
+    .heading p{
+        font-size:45px;
+        
+    }
+    article > h2{
+        font-size:25px;
+       }
+       article >h5{
+        font-size:20px;
+    }
+    .para{
+        font-size:12px;
+        
+    }
+    .top > div{ 
+        font-size:10px;
+       }
+       article >p{
+        font-size:14px;
+    }
+}
+@media(min-width:768px) {
+
+    .heading p{
+        font-size:50px;
+        
+    }
+ 
+    .news_image1{
+       height:100%;
+    }
+    .patch{
+        
+        width:30%;
+        
+    }
+
+
+}
+
+@media(min-width:900px) {
+    .heading p{
+        font-size:60px;
+        
+    }
+   
+}
+@media(min-width:1000px) {
+    .heading p{
+        font-size:70px;
+        
+        
+    }
+    .patch{
+        
+        width:20%;
+        
+    }
+}
